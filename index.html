@@ -6,15 +6,15 @@
     <title>Projeto Lista de Compras Virtual</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <section id="conteudo">
         <div id="cebeçalho">
             <form action="" id="add-item-form">
-                <input type="text" id="texto-item" placeholder="Insira um Item na lista">
+                <input type="text" id="texto-item" placeholder="Insira um Item na lista" autocomplete="off">
                 <button id="add-btn" type="submit">
-                    <span class="material-symbols-outlined">
+                    <span class="material-symbols-outlined" id="add">
                         add
                         </span>
                 </button>
@@ -24,7 +24,13 @@
             <span id="linhaVertical"></span>
                 <ul id="lista">
                     <li class="item template hide">
-                        <span class="textoItemLista">item 1</span>
+                        <span class="textoItemLista"></span>
+                        <span class="material-symbols-outlined" id="check">
+                            check
+                        </span>
+                        <span class="material-symbols-outlined" id="remover">
+                        close
+                        </span>
                     </li>
                 </ul>
         </div>

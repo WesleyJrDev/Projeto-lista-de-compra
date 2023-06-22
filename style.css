@@ -9,8 +9,8 @@
 
 body{
     background-image: url(Imagens/pexels-engin-akyurt-1435895.jpg);
-    background-size: cover;
-    background-position: right top;    
+    background-size: 100vw;
+    background-position: left top;
 }
 #conteudo{
     background-color: azure;
@@ -48,7 +48,7 @@ body{
 }
 /* botão de adicionar */
 #add-btn{
-    background-color: orangered;
+    background-color: rgba(255, 68, 0, 0.452);
     width: 80px;
     height: 50px;
     position: absolute;
@@ -58,15 +58,15 @@ body{
     cursor: pointer;
 }
 
-.material-symbols-outlined{
+#add{
     font-size: 4em;
     position: absolute;
     top: -1px;
     left: 15px;
-    color: wheat;
+    color: black;
 }
 
-#addItem:hover{
+#add-btn:hover{
     background-color: orange;
 }
 /* conteudo da DIV > UL */
@@ -95,10 +95,47 @@ body{
     line-height: 35px;
     list-style-type: none; 
 }
+
+#check{
+    border: 1px solid rgba(0, 128, 0, 0.61);
+    border-radius: 50%;
+    color: rgba(0, 128, 0, 0.61);
+    cursor: pointer;
+}
+#check:hover{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    cursor: pointer;
+}
+
+#remover{
+    border: 1px solid rgba(255, 0, 0, 0.527);
+    color: rgba(255, 0, 0, 0.527);
+    cursor: pointer;
+}
+
+#remover:hover{
+    border: 1px solid red;
+    color: red;
+    cursor: pointer;
+}
+
+
 /* hide */
-/* .hide{
+.hide{
     display: none;
-} */
+}
+
+.textoItemLista{
+    color: rgba(1, 1, 117, 0.904);
+}
+
+.checado{
+    color: green;
+    text-decoration: line-through; 
+    text-align: right;
+}
 
 
 
