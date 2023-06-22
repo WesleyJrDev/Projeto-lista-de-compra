@@ -12,7 +12,7 @@ body{
     background-size: cover;
     background-position: right top;    
 }
-#section{
+#conteudo{
     background-color: azure;
     background-size: contain;
     background-position: center center;
@@ -23,7 +23,7 @@ body{
     box-shadow: 3px 3px 15px black;
 }
 /* caixa de texto */
-#inserirItem{
+#cebeçalho{
     background-color: rgba(255, 228, 196, 0.658);
     position: relative;
     width: 500px;
@@ -32,7 +32,7 @@ body{
     text-align: center; 
 }
 
-#textoItem{
+#texto-item{
     width: 400px;
     height: 50px;
     box-sizing: border-box;
@@ -43,11 +43,11 @@ body{
     padding: 10px;
     font-size: 2em;
 }
-#textoItem:focus{
+#texto-item:focus{
     outline: none;
 }
 /* botão de adicionar */
-#addItem{
+#add-btn{
     background-color: orangered;
     width: 80px;
     height: 50px;
@@ -95,6 +95,10 @@ body{
     line-height: 35px;
     list-style-type: none; 
 }
+/* hide */
+/* .hide{
+    display: none;
+} */
 
 
 
